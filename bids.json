@@ -1,0 +1,22 @@
+[
+    {
+        "userId": "6532b38dc645762aa808c1c6",
+        "amount": 100,
+        "timeStamp": "2023-10-20T13:00:00"
+    },
+    {
+        "userId": "6532bb8a6f02861cd9fa7ac2",
+        "amount": 100,
+        "timeStamp": "2023-10-20T13:00:00"
+    },
+    {
+        "userId": "6532c2528a0b0d05cc2fbbda",
+        "amount": 100,
+        "timeStamp": "2023-10-20T13:00:00"
+    },
+    {
+        "userId": "6532c2f83dca28eba7967d19",
+        "amount": 100,
+        "timeStamp": "2023-10-20T13:00:00"
+    }
+]
