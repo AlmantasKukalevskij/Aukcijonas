@@ -44,12 +44,12 @@ auctions.insert_one(auction_data)
 
 
 #nuskaito i jsona
-# Fetch all auctions
-all_auctions = list(auctions.find({}))
+# gaunam TIK embeded bids fielda is visu aukcijonu
+bids_only = list(auctions.find({}, {"bids": 1, "_id": 0}))
 
 # Extract embedded bids from all auctions
 all_bids = []
-for auction in all_auctions:
+for auction in bids_only:
     all_bids.extend(auction["bids"])
 
 # Since the userId is stored as an ObjectId, convert it to a string for JSON serialization
